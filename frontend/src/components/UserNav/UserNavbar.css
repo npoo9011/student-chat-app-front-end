@@ -1,0 +1,17 @@
+nav.navbar,
+.navbar-default {
+  background-image: none;
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none;
+
+
+}
+nav.navbar a {
+  color: black !important;
+  font-weight: 600;
+}
+
+
+
+

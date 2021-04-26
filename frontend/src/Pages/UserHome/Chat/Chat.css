@@ -1,0 +1,112 @@
+.Chatone {
+    border-bottom: 2px solid black;
+    display: flex;
+    cursor: pointer;
+}
+.NavbarDiv {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+.RidhtStickDiv {
+  position: fixed;
+
+}
+.Searchfield {
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 350px;
+    margin-right: 2px;
+}
+.imageicon {
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
+    margin-top: 10px;
+}
+.username {
+padding: 20PX;
+}
+.mESSAGESdIV {
+    margin-bottom: 7%;
+    border: 2px solid black;
+    min-height: 670px;
+    padding-left: 5%;
+    padding-right: 13%;
+}
+.rightText {
+    padding: 5px;
+    text-align: right;
+    color: green;
+}
+.leftText {
+    padding: 5px;
+    text-align: left;
+    color: darkblue;
+}
+.righttime {
+font-size: 8px;
+color: darkgray;
+text-align: right;
+margin-top: -15px;
+padding-right: 5px;
+}
+.leftTime {
+font-size: 8px;
+color: darkgray;
+text-align: left;
+margin-top: -15px;
+padding-left: 5px;
+}
+.lastInputdiv {
+
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    
+}
+.inner-lastInputdiv{
+    margin-bottom: 20px;
+}
+.sp-search-field{
+    width: 60%;
+    float: left;
+    margin-left: 27%;
+}
+.sendButton {
+    margin-left: 10px;
+    width: 100px;
+    height: 32px;
+}
+@media screen and (max-width: 700px) {
+    .RidhtStickDiv {
+        margin-bottom: 10px;
+        position: sticky;
+      
+      }
+      .mESSAGESdIV {
+        margin-bottom: 20%;
+        border: 2px solid black;
+        min-height: 670px;
+        padding-left: 5%;
+        padding-right: 13%;
+    }
+    .sp-search-field{
+        width: 70%;
+        float: left;
+        margin-left: 0%;
+    }
+    .Searchfield {
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        height: 35px;
+        width: 100%;
+        margin-right: 2px;
+    }
+  }

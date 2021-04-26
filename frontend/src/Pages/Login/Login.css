@@ -1,0 +1,63 @@
+.UpperBox {
+    padding: 12%;
+    padding-left:25%;
+    padding-right:25%;
+}
+.BoxShadow {
+box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.upperinput{
+    margin-top: 30px;
+}
+.otherinput{
+    margin-top: 20px;
+}
+.forgotPassword {
+    text-align: right;
+    color: #2892D7;
+    padding-top:5px;
+}
+.logindiv {
+    margin-top:30px;
+    margin-left:34%;
+    justify-content: center;
+}
+.login {
+    width: 100px;
+    color: black;
+}
+.createAccount {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.imageheading {
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.image{
+height: 200px;
+width: 200px;
+margin-top: 10px;
+}
+.error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 700px) {
+    .UpperBox {
+        padding: 5% !important;
+        justify-content: center;
+        margin-top: 20%;
+    }
+    .image{
+display: none;
+        }
+        .imageheading {
+            display: none;
+        }
+  }

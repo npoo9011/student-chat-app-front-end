@@ -1,0 +1,14 @@
+.ChatBottom {
+margin-bottom: 10px;
+}
+.ChatTOP {
+    margin-top: 1%;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-radius: 5px;
+    padding: 15px;
+}
+.messageText {
+    color: black;
+    line-height: 25px;
+    font-size: 17px;
+}

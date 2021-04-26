@@ -1,0 +1,26 @@
+nav.navbar,
+.navbar-default {
+  background-image: none;
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none;
+}
+nav.navbar a {
+  color: black !important;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+ul.nav.navbar-nav.navbar-right > li > a:hover ,ul.nav.navbar-nav.navbar-right > li > a:focus{
+  color: darkblue !important;
+  background-color: transparent !important;
+}
+ul.nav.navbar-nav.navbar-left > li > a:hover ,ul.nav.navbar-nav.navbar-left > li > a:focus{
+  color: darkblue !important;
+  background-color: transparent !important;
+}
+
+

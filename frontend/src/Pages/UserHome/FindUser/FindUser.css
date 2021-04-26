@@ -1,0 +1,15 @@
+.Finddiv {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: 270px;
+    margin-top: 20%;
+    border-radius: 5px;
+}
+.DistanceTop {
+    margin-top: 20px;
+}
+.VariableStyling {
+    padding: 20px;
+}
+.VariableStyling1 {
+    margin-left: 20px;
+}

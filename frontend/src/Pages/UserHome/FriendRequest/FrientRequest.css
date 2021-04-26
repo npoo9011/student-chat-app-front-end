@@ -1,0 +1,29 @@
+.Finddivrequest {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: 270px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.FriendStyling {
+    padding: 20px;
+}
+.AcceptRejectDiv {
+    display: flex;
+    margin-left: 35%;
+}
+.Accept {
+margin-left: 20px;
+width: 100px;
+background-color: darkgreen;
+color: white;
+border: none;
+border-radius: 5px;
+}
+.Reject {
+    margin-left: 20px;
+    width: 100px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

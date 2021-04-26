@@ -1,0 +1,111 @@
+.FirstPanel {
+ width: auto;
+ margin-left: 30%;
+ margin-right: 30%;
+ box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+ height: 280px;
+} 
+.SecondPanel {
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: 320px;
+   } 
+   .ThirdPanel {
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: 320px;
+   } 
+   .FourthPanel {
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    height: 250px;
+   } 
+   .Tab {
+       padding-left: 30px;
+       padding-right: 30px;
+   }
+.Name {
+padding: 10px;
+font-size: 15px;
+padding-left: 10%;
+}
+.profile {
+padding: 10px;
+font-size: 15px;
+padding-left: 10%;
+}
+.headingview {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.inputfield {
+display: flex;
+width: 80%;
+border: 1px solid black;
+height: 40px;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 10%;
+margin-right: 10%;
+}
+.update {
+    width: 100px;
+    color: black;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+@media screen and (max-width: 700px) {
+    .FirstPanel {
+        width: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 300px;
+       } 
+       .SecondPanel {
+        width: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 400px;
+       } 
+       .ThirdPanel {
+        width: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 400px;
+       } 
+       .FourthPanel {
+        width: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 300px;
+       } 
+       .Name {
+        padding: 10px;
+        font-size: 15px;
+        padding-left: 0%;
+        }
+        .profile {
+        padding: 10px;
+        font-size: 15px;
+        padding-left: 1%;
+        }
+        .inputfield {
+            display: flex;
+            width: auto;
+            border: 1px solid gray;
+            height: 40px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 2%;
+            margin-right: 2%;
+            }
+
+  }
